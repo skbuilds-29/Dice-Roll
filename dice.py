@@ -13,3 +13,5 @@ if st.button("Roll the Dice! 🎲"):
         time.sleep(1.5)
     dice_animation.empty()
     st.write("You rolled a " + str(dice_number) + "! 🎉")
+if st.button("Reset"):
+    st.rerun()
